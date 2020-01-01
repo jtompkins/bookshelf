@@ -36,6 +36,14 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "carter": {
               "target": "Package",
               "version": "[5.0.0, )"
